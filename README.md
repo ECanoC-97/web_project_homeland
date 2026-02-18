@@ -18,4 +18,4 @@ Este proyecto es una página web responsiva que muestra las ciudades natales de 
 
 ## Enlace a GitHub Pages
 
-https://github.com/ECanoC-97/web_project_homeland.git
+https://github.com/ECanoC-97/web_project_homeland/
