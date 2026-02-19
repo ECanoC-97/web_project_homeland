@@ -40,6 +40,7 @@ Durante este proyecto se fortalecieron las siguientes habilidades:
 
 ## 📁 Estructura del proyecto
 
+```
 WEB_PROJECT_HOMELAND
 │
 ├── blocks/
@@ -65,6 +66,7 @@ WEB_PROJECT_HOMELAND
 │
 ├── index.html
 └── README.md
+```
 
 ## 🌐 Enlace a GitHub Pages
 
