@@ -102,13 +102,14 @@
 @media screen and (max-width: 320px) {
   .place {
     grid-template-columns: 1fr;
-    row-gap: 30px;
+    gap: 30px;
   }
 
   .place__title,
   .place__website,
   .place__image,
-  .place__content {
+  .place__content,
+  .place__button {
     grid-column: auto;
     grid-row: auto;
   }
@@ -118,16 +119,30 @@
     line-height: 35px;
   }
 
+  .place__website {
+    order: 1;
+  }
+
   .place__image {
     width: 100%;
+    max-width: 100%;
+    order: 2;
+  }
+
+  .place__content {
+    order: 3;
   }
 
   .place__paragraph {
     font-size: 16px;
+    line-height: 163%;
   }
 
   .place__button {
+    order: 4;
     width: 100%;
+    max-width: 288px;
     font-size: 14px;
+    box-sizing: border-box;
   }
 }
